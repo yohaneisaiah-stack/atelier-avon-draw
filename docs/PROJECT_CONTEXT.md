@@ -85,6 +85,10 @@ V0.2.6 removes periodic width bulges at resampled segment boundaries, delays
 the first home-screen paint until the iPad viewport settles, and uses wall-clock
 deadlines so elapsed time continues across iOS background suspension.
 
+V0.2.7 prefers stylus Touch Events for Apple Pencil on iPad Safari, with Pointer
+Events as a fallback, and narrows pressure-driven width variation while keeping
+the stronger pressure-driven opacity response.
+
 Always inspect current code and Git history before relying on this summary.
 
 ## Workflow
