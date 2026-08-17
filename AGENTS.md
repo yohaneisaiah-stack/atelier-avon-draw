@@ -10,7 +10,8 @@ document.
   technical options; do not ask the user to choose implementation details.
 - Distinguish consultation from implementation. Do not edit files when the user
   is asking for advice, comparison, investigation, or explicitly says not to
-  implement. Edit only after clear implementation approval.
+  implement. Treat a concrete problem report or requested outcome as approval
+  to investigate and implement a focused fix without asking for confirmation.
 - Explain important product tradeoffs in plain Japanese. Ask before making a
   consequential product decision when intent is uncertain.
 
@@ -64,7 +65,9 @@ duration, and restoration of the pre-abort pause state.
 - Inspect the current branch, worktree, remote, and relevant PR state before
   starting. Preserve unrelated user changes.
 - Do not implement directly on `main`. Create a focused branch, test, commit,
-  push, and open a PR. Do not merge without explicit user permission.
+  push, and open a PR. For a focused user-reported fix, review and merge after
+  checks pass without requiring another confirmation; stop before merging when
+  the user asks, or when the change expands beyond the reported problem.
 - Do not change Cloudflare, publication, or PWA settings without explaining the
   need and receiving approval.
 - Verify actual GitHub visibility, Pages, PR, and deployment state rather than
