@@ -89,6 +89,10 @@ V0.2.7 prefers stylus Touch Events for Apple Pencil on iPad Safari, with Pointer
 Events as a fallback, and narrows pressure-driven width variation while keeping
 the stronger pressure-driven opacity response.
 
+V0.2.8 restores coalesced Pointer Events as the primary Apple Pencil path,
+uses stylus Touch Events only to recover missed taps, applies slightly stronger
+pen-only smoothing, and waits for viewport orientation alignment at PWA launch.
+
 Always inspect current code and Git history before relying on this summary.
 
 ## Workflow
