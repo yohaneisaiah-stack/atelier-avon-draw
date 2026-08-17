@@ -93,6 +93,11 @@ V0.2.8 restores coalesced Pointer Events as the primary Apple Pencil path,
 uses stylus Touch Events only to recover missed taps, applies slightly stronger
 pen-only smoothing, and waits for viewport orientation alignment at PWA launch.
 
+V0.2.9 reverts the V0.2.8 hybrid Pencil input after physical testing found
+duplicate dotted marks and missed rapid taps. It restores the V0.2.7
+stylus-Touch-Events path as the stable iPad baseline. The launch-size issue is
+tracked separately because it occurs before the live page becomes visible.
+
 Always inspect current code and Git history before relying on this summary.
 
 ## Workflow
