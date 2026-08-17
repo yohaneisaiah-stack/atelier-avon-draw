@@ -81,6 +81,10 @@ V0.2.5 improves rapid Apple Pencil tap handling, reduces dark segment overlap,
 animates the timer ring continuously, and stabilizes the initial home-screen
 text size.
 
+V0.2.6 removes periodic width bulges at resampled segment boundaries, delays
+the first home-screen paint until the iPad viewport settles, and uses wall-clock
+deadlines so elapsed time continues across iOS background suspension.
+
 Always inspect current code and Git history before relying on this summary.
 
 ## Workflow
