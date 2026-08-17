@@ -53,6 +53,11 @@ duration, and restoration of the pre-abort pause state.
 ## Testing and reporting
 
 - Run applicable syntax, automated, and diff checks.
+- For every user-facing app update, increment the patch version and keep the
+  HTML title, visible home-screen version, README version, and service-worker
+  cache version aligned. Documentation-only changes do not bump the app version.
+- After deployment, always report the exact app version the user should see and
+  use for physical-device feedback.
 - Clearly separate: what code inspection established, what automated tests
   established, and what still needs physical-device verification.
 - Never claim Apple Pencil feel or iPad layout is correct solely from automated

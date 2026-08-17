@@ -77,6 +77,10 @@ predicted-event rendering, an iPad-focused layout, handedness, and a circular
 timer. The current implementation is intentionally small and mostly contained
 in `index.html`, with `manifest.webmanifest` and `sw.js` providing PWA support.
 
+V0.2.5 improves rapid Apple Pencil tap handling, reduces dark segment overlap,
+animates the timer ring continuously, and stabilizes the initial home-screen
+text size.
+
 Always inspect current code and Git history before relying on this summary.
 
 ## Workflow
