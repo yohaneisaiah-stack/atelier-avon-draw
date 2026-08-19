@@ -140,6 +140,9 @@ thinner without changing its 26px range. It removes the custom 350ms button
 touch-end cancellation that could suppress immediate subsequent Pencil input;
 CSS and native gesture prevention continue to block application zoom.
 
+V0.2.17 keeps the landscape result layout unchanged and makes portrait result
+thumbnails wrap at the same size instead of stretching into three wide columns.
+
 Always inspect current code and Git history before relying on this summary.
 
 ## Workflow
