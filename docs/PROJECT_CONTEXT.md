@@ -111,6 +111,12 @@ Those artificial points prevented the quadratic renderer from rounding sample
 transitions and made circles look polygonal. Stylus samples now remain the
 curve controls, while mouse and Pointer Events retain the existing resampling.
 
+V0.2.12 rolls back the V0.2.11 curve-control path after physical testing found
+that mouse drawing remained active and iPad input/UI stopped responding after
+the first Pencil stroke. It restores the operational V0.2.10 drawing pipeline;
+the smoother first V0.2.11 stroke remains evidence for a later isolated curve
+implementation that does not alter stroke lifecycle handling.
+
 Always inspect current code and Git history before relying on this summary.
 
 ## Workflow
