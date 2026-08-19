@@ -117,6 +117,11 @@ the first Pencil stroke. It restores the operational V0.2.10 drawing pipeline;
 the smoother first V0.2.11 stroke remains evidence for a later isolated curve
 implementation that does not alter stroke lifecycle handling.
 
+V0.2.13 preserves the complete V0.2.12 input and stroke lifecycle while adding
+a separate set of render-only Apple Pencil curve controls. The original
+resampled points still drive stroke state and finalization; only the quadratic
+renderer uses the sparse stylus controls. Mouse rendering remains unchanged.
+
 Always inspect current code and Git history before relying on this summary.
 
 ## Workflow
