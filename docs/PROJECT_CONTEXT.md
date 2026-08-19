@@ -105,6 +105,12 @@ the 2B-like tone, and adds restrained distance/velocity-aware start and end
 tapers. Graphite stamps and paper texture remain deferred until physical-device
 evaluation confirms the underlying stroke feel.
 
+V0.2.11 keeps the stable stylus Touch Events input path but stops inserting
+dense collinear points between its relatively sparse Apple Pencil samples.
+Those artificial points prevented the quadratic renderer from rounding sample
+transitions and made circles look polygonal. Stylus samples now remain the
+curve controls, while mouse and Pointer Events retain the existing resampling.
+
 Always inspect current code and Git history before relying on this summary.
 
 ## Workflow
