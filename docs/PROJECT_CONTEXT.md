@@ -134,6 +134,12 @@ tools versus session operations. It adds a 26px eraser-range cursor and
 finger-only two-finger Undo / three-finger Redo tap gestures while excluding
 stylus input, movement, active drawing, and paused sessions.
 
+V0.2.16 applies the distinct labeled drawing-tool and session-operation cards
+to both portrait and landscape layouts, and makes the eraser cursor outline
+thinner without changing its 26px range. It removes the custom 350ms button
+touch-end cancellation that could suppress immediate subsequent Pencil input;
+CSS and native gesture prevention continue to block application zoom.
+
 Always inspect current code and Git history before relying on this summary.
 
 ## Workflow
