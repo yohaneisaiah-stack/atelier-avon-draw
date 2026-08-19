@@ -122,6 +122,12 @@ a separate set of render-only Apple Pencil curve controls. The original
 resampled points still drive stroke state and finalization; only the quadratic
 renderer uses the sparse stylus controls. Mouse rendering remains unchanged.
 
+V0.2.14 disables application zoom gestures, adds a portrait phone/tablet
+layout with the prompt and controls above a larger lower canvas, and makes
+session-result thumbnails openable at full size. Individual results can be
+sent to the iOS/iPadOS share sheet or downloaded as PNG on desktop. Landscape
+and desktop session layouts retain the existing side-by-side arrangement.
+
 Always inspect current code and Git history before relying on this summary.
 
 ## Workflow
