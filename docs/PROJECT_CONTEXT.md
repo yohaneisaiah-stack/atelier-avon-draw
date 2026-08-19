@@ -143,6 +143,10 @@ CSS and native gesture prevention continue to block application zoom.
 V0.2.17 keeps the landscape result layout unchanged and makes portrait result
 thumbnails wrap at the same size instead of stretching into three wide columns.
 
+V0.2.18 gives in-session tool and operation buttons a self-contained touch
+lifecycle. Touch activation is completed immediately without leaving Safari's
+synthetic click/focus sequence active when the next Pencil stroke begins.
+
 Always inspect current code and Git history before relying on this summary.
 
 ## Workflow
