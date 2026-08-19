@@ -1,4 +1,4 @@
-Atelier Avon Draw v0.2.9
+Atelier Avon Draw v0.2.10
 
 index.html をブラウザで開けば試せます。
 PWAとしてホーム画面追加・オフライン利用する場合は、HTTPSでこのフォルダをホストしてください。
