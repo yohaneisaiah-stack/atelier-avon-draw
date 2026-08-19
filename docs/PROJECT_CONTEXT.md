@@ -98,6 +98,13 @@ duplicate dotted marks and missed rapid taps. It restores the V0.2.7
 stylus-Touch-Events path as the stable iPad baseline. The launch-size issue is
 tracked separately because it occurs before the live page becomes visible.
 
+V0.2.10 begins Croquis Pencil v1 Phase 1 without changing the stable V0.2.9
+input path. It separates a Croquis Pencil preset from brush dynamics, adds
+curved and smoothed pressure response, keeps width variation narrow, deepens
+the 2B-like tone, and adds restrained distance/velocity-aware start and end
+tapers. Graphite stamps and paper texture remain deferred until physical-device
+evaluation confirms the underlying stroke feel.
+
 Always inspect current code and Git history before relying on this summary.
 
 ## Workflow
