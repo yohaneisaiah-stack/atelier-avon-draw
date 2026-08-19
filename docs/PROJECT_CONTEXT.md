@@ -128,6 +128,12 @@ session-result thumbnails openable at full size. Individual results can be
 sent to the iOS/iPadOS share sheet or downloaded as PNG on desktop. Landscape
 and desktop session layouts retain the existing side-by-side arrangement.
 
+V0.2.15 reorganizes the portrait header into timer/tools, prompt, and session
+controls, with handedness mirroring and distinct visual treatment for drawing
+tools versus session operations. It adds a 26px eraser-range cursor and
+finger-only two-finger Undo / three-finger Redo tap gestures while excluding
+stylus input, movement, active drawing, and paused sessions.
+
 Always inspect current code and Git history before relying on this summary.
 
 ## Workflow
